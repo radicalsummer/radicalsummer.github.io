@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>RADICALSUMMER</title>
+		<meta charset="UTF-8">
+		<style type="text/css"></style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+    		box-sizing: border-box;
+}
+		/*GRADIENT*/
+		#grad1 {
+    			height: 100%;
+   		 		background-color: #ffccff; /* For browsers that do not support gradients */
+    			background-image: linear-gradient(to bottom right, #ffccff, #df80ff); /* Standard syntax (must be last) */
+}
+		body {
+				background-color: #ffccff; 
+  margin: 0;
+	}
+/* Style the header */
+		.header {
+    		background-color: #ffe6ff;
+    		padding: 20px;
+    		text-align: center;
+	}
+/* Style the top navigation bar */
+		.topnav {
+   			 overflow: hidden;
+    		background-color: #ffe6ff;
+}
+/* Style the topnav links */
+		.topnav a {
+			float: left;
+    		display: block;
+    		color: #e6b3ff;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+}
+/* Change color on hover */
+		.topnav a:hover {
+    		background-color: #f7e6ff; 
+    		color:#e6b3ff;
+}    		
+	</style>		
+	</head>
+
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	.mySlides {display:none;}
+</style>
+</head>
+	<body>
+	   
+<div class="header">
+		<h1 style="text-align: center; color: #e6b3ff; font-family:verdana"> RADICALSUMMER</h1>
+</div>
+<div id="grad1">
+	</div>
+	<div class="topnav" style="text-align: center">
+	<a href="index.html"><b>HOME</b></a>
+  	<a href="ARTISTSTATEMENT.HTML">ARTIST STATEMENT</a>
+  	<a href="ART74PROJECTS.HTML">ART 74 PROJECTS</a>
+  	<a href="BREADTH.HTML">BREADTH</a>
+  	<a href="CONTACT.HTML">CONTACT</a>
+  	<a href="https://www.instagram.com/radicalsummer/?hl=en">INSTAGRAM</a>
+ </div>
+ </div>
+		<h2 style="color: #e6b3ff" class="w3-center">HOME</h2>
+			<div class="w3-content w3-section" style="max-width:500px">
+ 			<img class="mySlides" <img src="https://i.imgur.com/0bQIYaE.jpg" alt="Jazmin" style="width:100%">
+  			<img class="mySlides" <img src="https://i.imgur.com/qqikRnn.jpg" alt="Image of Gelly" style="width:100%">
+			<img class="mySlides" <img src="https://i.imgur.com/9Qe7rpF.jpg" alt="Crystal Ball" style="width:75%">
+			<img class="mySlides" <img src="https://i.imgur.com/xtwS3sO.jpg" alt="Magazine Cover" style="width:75%">
+			<img class="mySlides" <img src="https://i.imgur.com/cWdKPTf.jpg" alt="YehMe2" style="width:75%">
+			<img class="mySlides" <img src="https://i.imgur.com/RUYGBxY.jpg" alt="Balien" style="width:75%">
+			<img class="mySlides" <img src="https://i.imgur.com/tudpV01.jpg" alt="Graduation Photography" style="width:75%">
+			<img class="mySlides" <img src="https://i.imgur.com/Bb8nL24.jpg" alt="wedding details" style="width:100%">
+			<img class="mySlides" <img src="https://i.imgur.com/T1YXxFP.jpg" alt="Alex Graduation" style="width:75%">
+			<img class="mySlides" <img src="https://i.imgur.com/EOnvEPt.jpg" alt="Food Magazine" style="width:100%">
+</div>
+<!-- SLIDESHOW SETTINGS -->
+<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+    		var i;
+    		var x = document.getElementsByClassName("mySlides");
+    		for (i = 0; i < x.length; i++) {
+      		 x[i].style.display = "none";  
+    }
+    	myIndex++;
+    	if (myIndex > x.length) {myIndex = 1}    
+    	x[myIndex-1].style.display = "block";  
+    	setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
